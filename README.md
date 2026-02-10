@@ -8,7 +8,6 @@ The project focuses on **model comparison and hyperparameter tuning** to improve
 ## Tech Stack
 - Python
 - NumPy, Pandas
-- Matplotlib, Seaborn
 - Scikit-learn
 
 ---
@@ -16,7 +15,7 @@ The project focuses on **model comparison and hyperparameter tuning** to improve
 ## Dataset
 - Breast Cancer Wisconsin (Diagnostic) dataset  
 - Source: Public UCI Machine Learning Repository  
-- File used: `Breast Cancer Wisconsin sample.csv`  
+- File used: `Breast Cancer Wisconsin.csv`  
 - Target classes:
   - Malignant  
   - Benign  
@@ -27,9 +26,9 @@ The project focuses on **model comparison and hyperparameter tuning** to improve
 - Loaded and explored structured medical diagnostic data
 - Performed data preprocessing and feature scaling
 - Trained multiple classification models
-- Applied hyperparameter tuning to identify the best-performing model
+- Applied hyperparameter tuning (GridSearch CV and Randomized Grid Search CV) to identify the best-performing model
 - Evaluated models using:
-  - Accuracy
+  - Accuracy, Precision, Recall, f-1 Score
   - Classification Report
   - Confusion Matrix
 
